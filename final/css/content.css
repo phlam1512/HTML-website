@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.content {
+	padding:10px;
+}
+.content p, .content h2, .content h3,.content figcaption{
+  font-family: 'Open Sans', sans-serif;	
+}
+.content p{
+	text-align:justify;
+}
+.content table.layout1 tr td tr td,.content table.layout2 tr td,.content table#layout3 tr td {
+	font-family:"Open Sans",sans-serif;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.content table.layout1 tr td tr td,.content table#layout3 tr td {
+	vertical-align:text-top;
+}
+.content table.layout1 tr td tr td,.content table.layout2 tr td{
+border-top:1px solid #ddd;
+border-bottom:1px solid #ddd;
+}
+.content table.layout1, .content table.layout3 tr td.right{
+	border-collapse:collapse;
+}
+.content table.layout1 tr:nth-child(even) ,.content table.layout2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.content table.layout1 tr td i ul {
+	padding-top:0;
+}
+.content table#layout3 tr td h3.definetitle{
+	text-align:center;
+}
+.content table#layout3 {
+	width:100%
+}
+.content table#layout3 tr td.right {
+	border-left:1px solid #000;
+}
+a.button {
+		font-family:"Open Sans",sans-serif;
+	text-decoration:none;
+	appearance:button;
+	color:#fff;
+	background:#009ae1;
+	padding:10px 15px;
+	transition:color .2s ease; 
+}
+a.button:hover{
+	background:#333333;
+}
+.chart-legend li{
+	font-size:14px;
+}
+.content ul li {
+	font-family:"Open Sans",sans-serif;
+}

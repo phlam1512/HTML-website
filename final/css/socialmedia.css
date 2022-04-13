@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+table.socialmedia tr td{
+	padding:10px;
+	vertical-align:top !important;
+}
+table.socialmedia tr td.right{
+	border-collapse:collapse;
+	border-left:1px solid #000;
+}
+.adminform{
+  font-family: 'Open Sans', sans-serif;	
+  border-collapse:collapse;
+  border:1px solid #000;
+  padding:5px;	
+}
+.formname{
+	font-size:15px;
+}

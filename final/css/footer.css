@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+footer {
+    background-color:#fff;
+    left:0;
+    bottom:0;
+    width: auto;
+    position: relative;
+    text-align: center;
+    padding: 1em 1em;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    height: 2em;
+    color:#000;
+}
+footer a {
+    text-decoration: none;
+    color:#3366BB;
+}
